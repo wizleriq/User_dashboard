@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import techrity from '../images/techrity.png'
 import grid from '../images/grid.png'
-import home from '../images/home.png'
+// import home from '../images/home.png'
 import book from '../images/book.png'
 import bubble from '../images/bubble.png'
 import user from '../images/user.png'
@@ -32,7 +32,7 @@ export const Navbar = () => {
    lg:flex lg:flex-col  lg:mt-[60px]'>
       <div className='lg:w-[207px] lg:h-[52px] lg:flex lg:items-center lg:justify-center  lg:min-w-[207px] lg:pt-[16px] lg:pr-[32px] lg:pb-[16px] lg:pl-[32px]
       lg:gap-[32px] lg:rounded-md lg:mb-0 lg:bg-[#FFFFFF]'>
-      <Image src={home} alt="Home" className='lg:w-[20px] lg:h-[20px]  lg:text-[#C2C2C2]'/>
+      {/* <Image src={home} alt="Home" className='lg:w-[20px] lg:h-[20px]  lg:text-[#C2C2C2]'/> */}
       <div className='lg:w-[91px] lg:h-[15px] '>
       <h3 className='lg:font-light lg:text-[16px] lg:leading-[100%] lg:text-[#1F0954]'>Dashboard</h3>
       </div>
